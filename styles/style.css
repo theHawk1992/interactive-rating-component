@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Overpass", sans-serif;
+    src:url(https://fonts.google.com/specimen/Overpass) ;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body {
+    background-color: rgb(28, 30, 33);
+
+}
+
+body h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+body p {
+    color: hsl(217, 12%, 63%);
+    
+}
+
+body main {
+    background-color: hsl(213, 19%, 18%);
+    text-align: left;
+    margin: auto;
+    width: 320px;
+    border-radius: 20px;
+
+}
+ul {
+    list-style-type: none;
+}
+
+section {
+    margin-top: 50%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+#header-question {
+    margin-top:25px;
+
+}
+
+#text-info {
+    margin-top:10px;
+    margin-bottom:25px;
+}
