@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    src:url(https://fonts.google.com/specimen/Overpass) ;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(28, 30, 33);
+
+}
+
+main section {
+    margin: 150px 450px ;
+    padding: 30px 20px 50px 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 25px;
+}
+
+#mobile-pic {
+    width: 25%;
+    height: 25%;
+}
+
+#stars-rating {
+    padding: 5px 12px;
+    font-family: "Overpass";
+    font-size: 12px;
+    font-weight: normal;
+    color: hsl(25, 66%, 57%);
+    background-color: hsl(213, 19%, 20%);
+    margin: 20px 80px 30px 80px;
+    border-radius: 20px;
+    /* display: none; */
+}
+
+#thank-you-note {
+    font-family: "Overpass";
+    font-weight: bold;
+    padding-top: -7px;
+    padding-bottom: 10px;
+}
+
+#info-p {
+    font-family: "Overpass";
+    font-size: 12px;
+    font-weight: normal;
+    color: hsl(217, 12%, 63%);
+    line-height: 17px;
+}

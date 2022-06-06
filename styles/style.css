@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "Overpass", sans-serif;
     src:url(https://fonts.google.com/specimen/Overpass) ;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -60,9 +60,53 @@ section {
 
 }
 
-
-
 #submit-button {
     text-align: center;
     margin-top: 30px;
+}
+
+#image-adjustment {
+    width: 5%;
+    height:5%;
+    padding: 10px 10px 10px 10px;
+    background-color:hsl(212, 15%, 23%);
+    border-radius: 50%;
+
+}
+
+.style-btn {
+    
+    color: hsl(217, 12%, 63%);
+    background-color:hsl(212, 15%, 23%);
+    font-weight:normal;
+    font-size: small;
+    padding: 11px 15px;
+    border-width: 0;
+    border-radius: 50%;
+}
+
+.style-btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+#submit-btn {
+    padding: 10px 105px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-width: 0;
+    border-radius: 17px;
+}
+
+#submit-btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    
 }
