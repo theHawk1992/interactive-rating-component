@@ -11,7 +11,8 @@
 body {
     text-align: center;
     background-color: rgb(28, 30, 33);
-
+    font-family: "Overpass", sans-serif;
+    src:url(https://fonts.google.com/specimen/Overpass) ;
 }
 
 main section {
@@ -28,27 +29,28 @@ main section {
 
 #stars-rating {
     padding: 5px 12px;
-    font-family: "Overpass";
+    font-family: inherit;
     font-size: 12px;
     font-weight: normal;
     color: hsl(25, 66%, 57%);
     background-color: hsl(213, 19%, 20%);
     margin: 20px 80px 30px 80px;
     border-radius: 20px;
-    /* display: none; */
 }
 
 #thank-you-note {
-    font-family: "Overpass";
+    font-family: inherit;
     font-weight: bold;
     padding-top: -7px;
     padding-bottom: 10px;
 }
 
 #info-p {
-    font-family: "Overpass";
+    font-family: inherit;
     font-size: 12px;
     font-weight: normal;
     color: hsl(217, 12%, 63%);
     line-height: 17px;
 }
+
+

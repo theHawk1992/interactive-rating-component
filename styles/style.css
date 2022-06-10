@@ -9,7 +9,8 @@
 
 body {
     background-color: rgb(28, 30, 33);
-
+    font-family: "Overpass", sans-serif;
+    src:url(https://fonts.google.com/specimen/Overpass) ;
 }
 
 body h1 {
@@ -83,6 +84,7 @@ section {
     padding: 11px 15px;
     border-width: 0;
     border-radius: 50%;
+    
 }
 
 .style-btn:hover {
@@ -108,5 +110,5 @@ section {
     background-color: white;
     color: hsl(25, 97%, 53%);
     cursor: pointer;
-    
 }
+
